@@ -1,5 +1,7 @@
-import './App.css';
+import './AppStyles.css'
 import React, {useEffect, useState} from 'react';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -11,26 +13,33 @@ function App() {
     })
   }, [])
 
+  const formatDate = (dateString) => {
+    const dateObj = new Date(dateString);
+    const date = dateObj.toDateString();
+    const time = dateObj.toLocaleTimeString();
+    return { date, time };
+  };
+
   return (
     <div className="App">
-      <div className='title'>
-        <h1>Space News Hub</h1>
-        <h3>Latest Articles on Space and Beyond</h3>
-      </div>
+      <Header/>
       <div className='newsContainer'>
         {newsList.map((val, key) => {
+          const { date, time } = formatDate(val.publishedAt);
           return (
             <div key={key} className="article" onClick={()=>{
               window.open(val.url, '_blank')
             }}>
               <h2>{val.title}</h2>
-              <img src={val.imageUrl}/>
+              <img src={val.imageUrl} alt={val.title} />
               <p>{val.summary}</p>
-              <h4>{val.publishedAt}</h4>
+              <h4>{date}</h4>
+              <h5>{time}</h5>
             </div>
-          )
+          );
         })}
       </div>
+      <Footer/>
     </div>
   );
 }
