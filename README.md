@@ -1,7 +1,7 @@
 # Application Info:
 I made this app to learn how to implement fetch API. I used free api.spaceflightnews articles to do this. Learned about userState hook, and made beautiful CSS with the help of GPT.
 
-Live Demo - 
+Live Demo - https://vasujhawar2001.github.io/spaceNewsAPI/
 
 # Getting Started with Create React App
 
