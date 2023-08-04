@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.406d88e2.css",
-    "main.js": "/react-gh-pages/static/js/main.10e4697c.js",
-    "static/js/787.f62a2284.chunk.js": "/react-gh-pages/static/js/787.f62a2284.chunk.js",
-    "static/media/space.jpg": "/react-gh-pages/static/media/space.515f650fc0370e4de762.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.406d88e2.css.map": "/react-gh-pages/static/css/main.406d88e2.css.map",
-    "main.10e4697c.js.map": "/react-gh-pages/static/js/main.10e4697c.js.map",
-    "787.f62a2284.chunk.js.map": "/react-gh-pages/static/js/787.f62a2284.chunk.js.map"
+    "main.css": "/spaceNewsAPI/static/css/main.406d88e2.css",
+    "main.js": "/spaceNewsAPI/static/js/main.22aeb582.js",
+    "static/js/787.f62a2284.chunk.js": "/spaceNewsAPI/static/js/787.f62a2284.chunk.js",
+    "static/media/space.jpg": "/spaceNewsAPI/static/media/space.515f650fc0370e4de762.jpg",
+    "index.html": "/spaceNewsAPI/index.html",
+    "main.406d88e2.css.map": "/spaceNewsAPI/static/css/main.406d88e2.css.map",
+    "main.22aeb582.js.map": "/spaceNewsAPI/static/js/main.22aeb582.js.map",
+    "787.f62a2284.chunk.js.map": "/spaceNewsAPI/static/js/787.f62a2284.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.406d88e2.css",
-    "static/js/main.10e4697c.js"
+    "static/js/main.22aeb582.js"
   ]
 }
